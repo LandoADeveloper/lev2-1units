@@ -1,0 +1,28 @@
+li {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+ul {
+    padding-inline-start: 1.2em;
+}
+
+section {
+    font-size: 2rem;
+    border: 10px solid black;
+}
+
+section ul li:nth-of-type(1) ul li:nth-of-type(1) ul li{
+    list-style: "🐶";
+}
+section ul li:nth-of-type(1) ul li:nth-of-type(2) ul li{
+    list-style: "🐱";
+}
+section ul li:nth-of-type(2) ul li:nth-of-type(1) ul li{
+    list-style: "🦅";
+}
+section ul li:nth-of-type(3) ul li:nth-of-type(1) ul li{
+    list-style: "🐍";
+}
+section ul li:nth-of-type(3) ul li:nth-of-type(2) ul li{
+    list-style: "🦎";
+}
